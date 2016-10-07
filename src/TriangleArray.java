@@ -7,22 +7,6 @@ public static final String TEXT = "Hello";
     public static char[][] toTriangleArray(String text)
     {
     	char[][] result = new char[text.length() * 2 - 1][];
-//    	for (int i = 0; i < text.length() * 2 - 1; i++) {
-//			int magic = ;
-//    		result[i] = new char[magic];
-//    		for (int j = 0; j < result[i].length; j++) {
-//				result[i][j] = text.charAt(text.length() - magic);
-//			}
-//		}
-    	
-//    	for (int i = 0; i < text.length(); i++) {
-//			result[i] = new char[i + 1];
-//			result[text.length() - (i + 1)] = new char[i + 1];
-//			for (int j = 0; j < result[i].length; j++) {
-//				result[i][j] = text.charAt(text.length() - i - 1);
-//				result[text.length() - (i + 1)][j] = text.charAt(text.length() - i - 1);
-//			}
-//		}
     	
     	for (int i = 0; i < text.length(); i++) {
     		result[i] = new char[i + 1];
